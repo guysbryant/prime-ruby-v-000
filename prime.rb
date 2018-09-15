@@ -5,7 +5,7 @@ require'bigdecimal/math'
 def prime?(int)
   if int == 2
     return true
-  elsif int <= 1 || int.even?
+  elsif int <= 1 || int.even? || int % 5 == 0
     return false
   end
   i = 3
