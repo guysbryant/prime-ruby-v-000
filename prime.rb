@@ -16,12 +16,12 @@ def prime?(int)
   true
 end
 
-iterations = 1000
+# iterations = 1000
 
-Benchmark.bm do |bm|
-  bm.report do
-    iterations.times do
-      puts Benchmark.measure{prime?(rand(0...10000000))}
-    end
-  end
-end
+# Benchmark.bm do |bm|
+#   bm.report do
+#     iterations.times do
+#       puts Benchmark.measure{prime?(rand(0...10000000))}
+#     end
+#   end
+# end
