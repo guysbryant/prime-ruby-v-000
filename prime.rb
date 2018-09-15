@@ -16,7 +16,7 @@ def prime?(int)
   true
 end
 
-iterations = 100
+iterations = 1000
 
 Benchmark.bm do |bm|
   bm.report do
